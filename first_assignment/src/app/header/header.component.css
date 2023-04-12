@@ -11,19 +11,24 @@
 }
 .header div{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 5%;
     width: 40%;
     position: absolute;
-    top: 30%;
+    bottom: -35%;
+        left: 1%;
+
+
 }
 .h_profile{
     width: 30%;
+    top: 5%;
 }
 .h_name{
     color: white;
     position: relative;
+    margin-bottom: 3%;
 
 }
 .h_notification{
@@ -164,6 +169,19 @@
         .header{
             width: 100%;
             object-fit: cover;
+        }
+        .header div {
+            bottom: -22%;
+        }
+        .header div .h_profile{
+            width: 18%;
+        }
+        .header div .h_name{
+            font-size: 20px;
+            margin-bottom: 5%;
+        }
+        .header div .h_notification{
+            margin-bottom: 15%;
         }
     
 }

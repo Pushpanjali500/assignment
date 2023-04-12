@@ -50,16 +50,18 @@
 
 .box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 16px;
     background-color: #E7F3FA;
     width: 30%;
-    height: 248px;
+    height: 240px;
     box-shadow: 0px 0px 0px 1px #E0E0E0;
     position: relative;
     margin-top: 60px;
     border-radius: 15px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
 
 }
 
@@ -72,9 +74,6 @@
 }
 
 .box p {
-    position: absolute;
-    left: 16px;
-    top: 116px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -89,11 +88,8 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    position: absolute;
     width: 110px;
     height: 34px;
-    left: 16px;
-    top: 200px;
     background: #2C324F;
     border-radius: 45px;
     color: white;
@@ -151,7 +147,7 @@
     border-radius: 25px;
     border: 1px solid #F6D45A;
     padding: 0 10px;
-    margin-top: 28px;
+    margin-top: 50px;
 }
 
 .puzzles_quizzes .box1_puzzle .box div {
@@ -182,18 +178,19 @@
 }
 
 @media screen and (max-width:400px) {
-    .mighty-test-packs .heading {
+    /*.mighty-test-packs .heading {
         flex-direction: column;
         align-items: center;
-        
+        font-size: 15px;
     }
+    */
 
     .view {
         height: 36px;
     }
     .boxes .box{
         width: 71%;
-        height: 17rem;
+        height: 10rem;
     }
 
 }
@@ -230,6 +227,22 @@
         height: 24rem;
     }
         .mighty-test-packs .heading{
+            display: flex;
+            flex-direction: column;
             text-align: center;
+            align-items: center;
+            margin-bottom: 5%;
+            /*gap: 10%;*/
+            width: 100%;
+            
         }
+        .boxes{
+            gap: 50px;
+        }
+        .mighty-test-packs div h1{
+            width: 100%;
+        }
+                .box button {
+                    margin-bottom: 15%;
+                }
 }
