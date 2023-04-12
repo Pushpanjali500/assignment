@@ -73,8 +73,6 @@
 
 .box p {
     position: absolute;
-    width: 173px;
-    height: 48px;
     left: 16px;
     top: 116px;
     font-family: 'Poppins';
@@ -106,7 +104,7 @@
     display: flex;
     margin-top: 18px;
     gap: 15px;
-    width: 100%;
+    width: 97%;
     margin-left: 2%;
 }
 
@@ -155,45 +153,54 @@
     padding: 0 10px;
     margin-top: 28px;
 }
-.puzzles_quizzes .box1_puzzle .box div{
+
+.puzzles_quizzes .box1_puzzle .box div {
     display: flex;
     align-items: center;
     gap: 4%;
     width: 60%;
 }
+
 .puzzles_quizzes .box1_puzzle .box h4 {
     font-size: 16px;
     font-weight: 600;
 }
 
 
-@media screen and (max-width:1000px){
-    .mighty-test-packs .heading .view{
+@media screen and (max-width:1000px) {
+    .mighty-test-packs .heading .view {
         margin-right: 5%;
     }
+
     .puzzles_quizzes {
         justify-content: center;
     }
-    .arrow{
+
+    .arrow {
         margin-left: 18%;
     }
 }
 
-@media screen and (max-width:400px){
-   .mighty-test-packs .heading{
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    gap: 3%;
-   }
-   .view{
-    height: 36px;
-   }
+@media screen and (max-width:400px) {
+    .mighty-test-packs .heading {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .view {
+        height: 36px;
+    }
+    .boxes .box{
+        width: 71%;
+        height: 17rem;
+    }
+
 }
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     .puzzles_quizzes {
         display: flex;
         flex-direction: column;
@@ -201,21 +208,28 @@
         justify-content: center;
         align-items: center;
     }
+
     .puzzles_quizzes .box1_puzzle {
         width: 80%;
         display: flex;
         flex: 1;
     }
-    .mighty-test-packs{
+
+    .mighty-test-packs {
         margin-top: 2em;
     }
-    .mighty-test-packs .boxes{
+
+    .mighty-test-packs .boxes {
         flex-direction: column;
         align-items: center;
         margin-top: 2em;
     }
-    .mighty-test-packs .boxes .box{
-           width: 66%;
-    }
-}
 
+    .mighty-test-packs .boxes .box {
+        width: 71%;
+        height: 24rem;
+    }
+        .mighty-test-packs .heading{
+            text-align: center;
+        }
+}

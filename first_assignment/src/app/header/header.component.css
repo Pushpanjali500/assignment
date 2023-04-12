@@ -99,6 +99,31 @@
     color: black;
 }
 
+@media screen and (max-width:1088px){
+    .header div{
+        width: 42%;
+    }
+}
+
+@media screen and (max-width:1036px) {
+    .header div {
+        width: 47%;
+    }
+}
+@media screen and (max-width:1036px) {
+    .header div {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width:1000px){
+  .header {
+    background-size: cover;
+    object-fit: cover;
+    width: 100vw;
+  }
+}
+
 @media screen and (max-width:800px){
     .header {
             width: 100%;
