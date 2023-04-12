@@ -1,0 +1,144 @@
+.header{
+    background: url("/assets/img/header_background.jpg");
+    height: 148px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    z-index: 13;
+}
+.header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    width: 40%;
+    position: absolute;
+    top: 30%;
+}
+.h_profile{
+    width: 30%;
+}
+.h_name{
+    color: white;
+    position: relative;
+
+}
+.h_notification{
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: #2C324F;
+    border-radius: 50%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h_update_btn{
+    position: absolute;
+    right: 0;
+    top: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    width: 79px;
+    height: 34px;
+    background: #2C324F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FFFFFF;
+    right: 2%;
+}
+.board-class-btn{
+    display: flex;
+    position: relative;
+    top: 13px;
+    width: 17%;
+    left: 14%;
+    justify-content: space-between;
+}
+.board-class-btn .board_btn {
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 2px solid #44A77E;
+    width: 100px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 14px;
+    background-color: rgba(48, 179, 75, 0.1);
+    ;
+}
+
+.board-class-btn .board_btn span {
+    color: black;
+}
+
+.board-class-btn .class_btn {
+    margin-right: 10px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 5px 10px;
+    width: 100px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 14px;
+}
+
+.board-class-btn .class_btn span {
+    color: black;
+}
+
+@media screen and (max-width:800px){
+    .header {
+            width: 100%;
+            object-fit: contain;
+        }
+        .h_notification{
+            left: 50%;
+            height: 36px;
+            width: 36px;
+        }
+}
+@media screen and (max-width:400px){
+ .header div{
+    margin-left: 10%;
+    object-fit: contain;
+    gap: 5px;
+    top: 15%;
+ }   
+ .header .h_profile{
+    width: 50%;
+ }
+ .header .h_name{
+    font-size: 15px;
+ }
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .board-class-btn {
+            display: flex;
+            position: relative;
+            top: 13px;
+            width: 27%;
+            left: 14%;
+            justify-content: space-between;
+        }
+        .header{
+            width: 100%;
+            object-fit: cover;
+        }
+    
+}

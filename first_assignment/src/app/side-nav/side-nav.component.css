@@ -1,0 +1,146 @@
+.side-nav {
+    display: flex;
+    width: 16%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    gap: 17px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 3px 1px -2px rgba(33, 31, 31, 0.2), 0px 2px 2px rgba(33, 31, 31, 0.14), 0px 1px 5px rgba(33, 31, 31, 0.12);
+}
+
+.nav-logo {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo .toggle {
+    width: 17px;
+    height: 11.27px;
+    margin-top: 7%;
+    margin-left: 19px;
+    cursor: pointer;
+}
+
+.sub-nav-logo {
+    display: flex;
+    width: 161px;
+    height: 39px;
+    justify-content: baseline;
+}
+
+.sub-nav-logo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-left: 2px;
+}
+
+.sub-nav-logo div h1 {
+    font-size: 15px;
+    font: bold;
+    letter-spacing: 3px;
+}
+
+.sub-nav-logo div hr {
+    border: 1px solid #30B34B;
+}
+
+.sub-nav-logo div p {
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+/* menu */
+
+.menus .menu {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.menus .active {
+    background-color: rgba(48, 179, 75, 0.1);
+    color: #30B34B;
+    border-left: 3px solid #30B34B;
+}
+
+.menus .menu img {
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+
+@media screen and (max-width:1000px){
+    .side-nav{
+        width: 16%;
+    }
+    nav{
+        margin-top: 17%;
+    }
+    .nav-logo{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-nav-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 96%;
+        align-items: center;
+    }
+    .sub-nav-logo img{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 35%;
+    }
+    .sub-nav-logo div{
+        display: none;
+    }
+    .nav-logo .toggle{
+        display: none;
+    }
+    .menus{
+        align-items: center;
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .menus .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu p {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width:800px){
+ .nav-logo{
+    height: 6%;
+ }   
+ .sub-nav-logo img {
+     width: 52%;
+     margin: 0 auto;
+     padding-top: 35%;
+ }
+}

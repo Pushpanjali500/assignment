@@ -1,0 +1,221 @@
+.box1 {
+    width: 100%;
+
+}
+
+.box1 hr {
+    border: 1px solid rgba(33, 31, 31, 0.2);
+}
+
+.mighty-test-packs {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-left: 2%;
+}
+
+.mighty-test-packs .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mighty-test-packs h1 {
+    width: 265px;
+    height: 44px;
+}
+
+.mighty-test-packs .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 2px;
+    height: 40px;
+    width: 90px;
+}
+
+.mighty-test-packs .view span {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background-color: #E7F3FA;
+    width: 30%;
+    height: 248px;
+    box-shadow: 0px 0px 0px 1px #E0E0E0;
+    position: relative;
+    margin-top: 60px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+
+}
+
+.box .box_img {
+    width: 63%;
+    height: 55%;
+    position: absolute;
+    top: -22%;
+    left: 18%;
+}
+
+.box p {
+    position: absolute;
+    width: 173px;
+    height: 48px;
+    left: 16px;
+    top: 116px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(33, 31, 31, 0.87);
+}
+
+.box button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 110px;
+    height: 34px;
+    left: 16px;
+    top: 200px;
+    background: #2C324F;
+    border-radius: 45px;
+    color: white;
+
+}
+
+.puzzles_quizzes {
+    display: flex;
+    margin-top: 18px;
+    gap: 15px;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.puzzles_quizzes .box1_puzzle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+}
+
+.puzzles_quizzes .box1_puzzle .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.puzzles_quizzes .box1_puzzle .box img {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puzzles_quizzes .box1_puzzle .box .arrow {
+    width: 10px;
+    margin-right: 1%;
+}
+
+.puzzles_quizzes .box1_puzzle .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    background-color: transparent;
+    align-items: center;
+    height: 85px;
+    border-radius: 25px;
+    border: 1px solid #F6D45A;
+    padding: 0 10px;
+    margin-top: 28px;
+}
+.puzzles_quizzes .box1_puzzle .box div{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    width: 60%;
+}
+.puzzles_quizzes .box1_puzzle .box h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:1000px){
+    .mighty-test-packs .heading .view{
+        margin-right: 5%;
+    }
+    .puzzles_quizzes {
+        justify-content: center;
+    }
+    .arrow{
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width:400px){
+   .mighty-test-packs .heading{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    gap: 3%;
+   }
+   .view{
+    height: 36px;
+   }
+}
+
+
+
+@media screen and (max-width:800px){
+    .puzzles_quizzes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .puzzles_quizzes .box1_puzzle {
+        width: 80%;
+        display: flex;
+        flex: 1;
+    }
+    .mighty-test-packs{
+        margin-top: 2em;
+    }
+    .mighty-test-packs .boxes{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+    }
+    .mighty-test-packs .boxes .box{
+           width: 66%;
+    }
+}
+

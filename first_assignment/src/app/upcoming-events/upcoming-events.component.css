@@ -1,0 +1,86 @@
+.upcoming-events {
+    width: 100%;
+    
+    background: #E1F4ED;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.upcoming-events .event-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-events .event-heading h1 {
+    width: 257px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 44px;
+    color: rgba(33, 31, 31, 0.87);
+}
+
+.upcoming-events .event-heading button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 121px;
+    height: 42px;
+    background: #EEF8F5;
+    border: 1.5px solid #000000;
+    border-radius: 25px;
+    gap: 10px;
+    font-family: "poppins";
+    font-weight: 800;
+}
+
+.event-task {
+    width: 100%;
+    height: 101px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    box-shadow: 0px 2px 1px -1px rgba(33, 31, 31, 0.2), 0px 1px 1px rgba(33, 31, 31, 0.14), 0px 1px 3px rgba(33, 31, 31, 0.12);
+    border-radius: 25px;
+    font-size: 14px;
+    justify-content: space-between;
+    padding-right: 6%;
+}
+
+.event-task div {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    line-height: 21px;
+    gap: 10px;
+}
+
+.event-task div .task1 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1000px){
+    .upcoming-events{
+        width: 80%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:800px){
+    .event-heading{
+        margin-bottom: 0%;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px){
+    .event-task img{
+        display: none;
+    }
+}
