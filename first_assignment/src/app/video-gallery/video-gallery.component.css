@@ -57,6 +57,12 @@
     width: 67%;
     position: relative;
 }
+.video-box-left div h5{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(33, 31, 31, 0.87);
+    font-weight: 700;
+}
 .video-gallery .video-box .video-box-left img{
     width: 100%;
     height: 417px;
