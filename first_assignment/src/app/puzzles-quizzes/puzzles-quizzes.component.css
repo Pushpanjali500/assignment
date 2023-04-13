@@ -20,9 +20,10 @@
 }
 
 .mighty-test-packs h1 {
-    width: 265px;
-    height: 44px;
-}
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 43.5px;
+    }
 
 .mighty-test-packs .view {
     display: flex;
@@ -32,8 +33,12 @@
     padding: 2px;
     height: 40px;
     width: 90px;
+    background: #FFFFFF;
+    border: 1.5px solid #000000;
 }
-
+.mighty-test-packs .view:hover {
+    background-color: #fff8dc;
+}
 .mighty-test-packs .view span {
     margin-left: 10px;
     display: flex;
@@ -60,11 +65,31 @@
     margin-top: 60px;
     border-radius: 15px;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
+    padding-bottom: 1%;
+    padding-left: 1%;
 
 }
-
+.box .social-test {
+   display: flex;
+   flex-direction: column;
+   white-space: wrap;
+}
+.box .social-test p{
+    line-height: 0;
+}
+/*
+.boxes .box div{
+        width: 100%;
+        display: flex;
+        height: 47%;
+        margin-bottom: 5%;
+        gap: 33%;
+        justify-content: space-between;
+        flex-direction: column;
+}
+*/
 .box .box_img {
     width: 63%;
     height: 55%;
@@ -79,21 +104,26 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    white-space: pre-wrap;
+    margin-bottom: 19%;
     color: rgba(33, 31, 31, 0.87);
 }
 
-.box button {
+.boxes .box  button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
     width: 110px;
     height: 34px;
-    background: #2C324F;
+    background: #00A16C;
     border-radius: 45px;
     color: white;
+    border: none;
 
+}
+.boxes .box button:hover{
+    background-color: black;
 }
 
 .puzzles_quizzes {
@@ -178,20 +208,17 @@
 }
 
 @media screen and (max-width:400px) {
-    /*.mighty-test-packs .heading {
-        flex-direction: column;
-        align-items: center;
-        font-size: 15px;
-    }
-    */
-
     .view {
         height: 36px;
     }
     .boxes .box{
-        width: 71%;
-        height: 10rem;
+        width: 75%;
     }
+        /*.mighty-test-packs .boxes .box {
+            width: 50%;
+            height: 20rem;
+        }
+        */
 
 }
 
@@ -219,12 +246,11 @@
     .mighty-test-packs .boxes {
         flex-direction: column;
         align-items: center;
-        margin-top: 2em;
     }
 
     .mighty-test-packs .boxes .box {
         width: 71%;
-        height: 24rem;
+        align-items: center;
     }
         .mighty-test-packs .heading{
             display: flex;
@@ -242,7 +268,23 @@
         .mighty-test-packs div h1{
             width: 100%;
         }
-                .box button {
+        .mighty-test-packs .box div{
+            display: flex;
+                flex-direction: column;
+                height: 8%;
+                gap: 1%;
+                justify-content: space-between;
+        }
+                .mighty-test-packs .box button {
                     margin-bottom: 15%;
                 }
+                .mighty-test-packs .box .social-test{
+                    line-height: 14px;
+                }
+                .boxes .box p{
+                margin-bottom: -1%;
+                }
+               .box1_puzzle .heading{
+                font-size: 17px;
+               }
 }
