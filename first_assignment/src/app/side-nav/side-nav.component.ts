@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-nav.component.css']
 })
 export class SideNavComponent implements OnInit {
-
-  constructor() { }
+  isSideBarOpen: boolean= true;
+  constructor() { 
+  }
 
   ngOnInit(): void {
+  }
+  setSideBar=(val:boolean): void =>{
+     this.isSideBarOpen=val;
+     console.log(this.isSideBarOpen);
   }
 
 }

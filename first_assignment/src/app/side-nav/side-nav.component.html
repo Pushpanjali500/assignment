@@ -1,10 +1,10 @@
-<div class="side-nav">
+<div class="side-nav" [ngClass]="{'sideNavClosed':!isSideBarOpen}">
     <!--nav-logo-->
     <div class="nav-logo">
-        <img class="toggle" src="../../assets/img/toggle.svg">
+        <img class="toggle" (click)="setSideBar(false)"  src="../../assets/img/toggle.svg">
         <div class="sub-nav-logo">
-            <img src="../../assets/img/qafront.mightyme 2.svg">
-            <div>
+            <img   (click)="setSideBar(true)" src="../../assets/img/qafront.mightyme 2.svg">
+            <div id="sub-nav-logo-content">
                 <h1>Mighty me</h1>
                 <hr>
                 <p>SELF POWER</p>
@@ -13,7 +13,7 @@
     </div>
     <!--menu -->
     <nav>
-        <ul class="menus">
+        <ul class="menus" [ngClass]="{'sideNavClose':!isSideBarOpen}">
             <li class="menu active"><img src="../../assets/img/menu1.svg"><p><b>Dashboard</b></p></li>
             <li class="menu"><img src="../../assets/img/menu2.svg"><p>MMSP 2022</p></li>
             <li class="menu"><img src="../../assets/img/menu3.svg"><p>Allocated Task</p></li>
