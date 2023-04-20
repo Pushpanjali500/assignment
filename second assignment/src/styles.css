@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    /*font-family: "SoDoSans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";*/
+    font-family: "SoDoSans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.active{
+    border-bottom: 6px solid green;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

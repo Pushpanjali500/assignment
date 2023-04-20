@@ -1,0 +1,730 @@
+.rewardsSection{
+    display: flex;
+    flex-direction: column;
+}
+/*rewards header section*/
+.rewardsHeaderSection{
+    z-index: 13;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30,57,50);
+    align-items: center;
+    padding: 1.3% 2%;
+}
+.rewardsHeaderSection .starBucksReward{
+        color: white;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 15px;
+        padding-left: 7%;
+}
+.joinInTheApp{
+    display: none;
+}
+
+
+/*rewards section*/
+.rewardsSections{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*rewards first section*/
+.rewardsFirstSection{
+    background: url("../../assets/images/rewardsbg_img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    background-color: rgb(212, 233, 226);
+    width: 100%;
+    height: 50rem;
+    margin: 0 auto;
+}
+.rewardsFirstSectionLeft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4%;
+}
+.rewardsFirstSectionLeftHeading{
+    font-size: 38px;
+    letter-spacing: 0.85px;
+    font-weight: 700;
+    line-height: 55px;
+    color: rgba(0,0,0,0.87);
+}
+.rewardsFirstSectionLeftContent{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,0.87);
+}
+.rewardFirstSectionjoinNowBtn{
+    color: white;
+    background-color: rgba(24, 77, 24, 0.733);
+    border: none;
+    padding: 8px 16px;
+    letter-spacing: -0.16px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.rewardFirstSectionjoinNowBtn:hover{
+    background-color: rgba(24, 77, 24, 0.7);
+}
+
+
+
+/*rewards second section*/
+/*rewards second section*/
+.rewardsSecondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+    align-items: center;
+}
+
+.rewardsSecondSectionHeading {
+    font-weight: 600;
+    font-size: 29px;
+    margin-bottom: 1.5%;
+}
+
+.rewardsSecondSectionParagraph {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 500;
+    word-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.rewardsSecondSectionBoxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewardsSecondSectionBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    /* background: red; */
+}
+
+.secondSectionOneContent {
+    text-align: center;
+}
+
+.rewardsSecondSectionContent1 {
+    border-radius: 50%;
+    padding: 6%;
+    width: 10px;
+    height: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin-bottom: 8%;
+}
+
+.rewardsSecondSectionContent2 {
+    margin-bottom: 6%;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.rewardsSecondSectionContent3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.rewardsSecondSectionContent3 u:hover {
+    text-decoration: none;
+}
+
+
+/*rewards second section
+.rewardsSecondSection{
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    align-items: center;
+}
+.rewardsSecondSection .rewardsSecondSectionHeading{
+    font-weight: 600;
+    font-size: 29px;
+    margin-bottom: 1.5%;
+}
+.rewardsSecondSection .rewardsSecondSectionParagraph{
+    font-size: 16px;
+    color: rgba(0,0,0,0.87);
+    font-weight: 500;
+    word-spacing: 2px;
+    margin-bottom: 3%;
+}
+.rewardsSecondSection .rewardsSecondSectionBoxes{
+    display: flex;
+    justify-content: space-between;
+}
+.rewardsSecondSectionBoxes .rewardsSecondSectionBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 35%;
+    text-align: center;
+    padding-top: 1%;
+    gap: 2%;
+}
+.rewardsSecondSectionBox .rewardsSecondSectionContent1{
+    border-radius: 50%;
+    padding: 6%;
+    width: 45px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin-bottom: 8%;
+}
+.rewardsSecondSectionBox .rewardsSecondSectionContent2{
+    margin-bottom: 6%;
+    font-size: 19px;
+    color: rgba(0,0,0,0.87);
+}
+.rewardsSecondSectionBox .rewardsSecondSectionContent3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 24px;
+    width: 100%;
+}
+.rewardsSecondSectionContent3 u:hover{
+    text-decoration: none;
+}*/
+
+
+/* rewards section third */
+.rewardsThirdSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.rewardsThirdSectionBox1{
+    background-color: rgba(211,232,225,0.33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+.rewardsThirdSectionBox1Heading{
+    margin-bottom: 4%;
+}
+.rewardsThirdSectionBox1Ratings{
+    display: flex;
+   justify-content: space-around;
+}
+.rewardsThirdSectionBox1RatingNo{
+    display: flex;
+    font-size: 24px;
+        /* background: red; */
+    padding-bottom: 5%;
+        /* width: 22%; */
+    font-weight: 600;
+    padding-left: 11%;
+    padding-right: 11%;
+    justify-content: center;
+    gap: 1%;
+    align-items: center;
+    border-bottom: 5px solid transparent;
+}
+.rewardsThirdSectionBox1RatingStar{
+    color: rgb(223, 178, 120);
+    font-size: 15px;
+}
+.rewardsThirdSectionBox1RatingActive{
+    border-bottom: 5px solid green;
+}
+.rewardsThirdSectionBox2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 233, 226);
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.rewardsThirdSectionBox2Left{
+    width: 25%;
+    margin-left: 4%;
+}
+.rewardsThirdSectionBox2Left img {
+    width: 100%;
+}
+.rewardsThirdSectionBox2Right {
+    width: 30%;
+    margin-left: 5%
+}
+.rewardsThirdSectionBox2Right .rewardsThirdSectionBox2RightHeading{
+    font-size: 28px;
+    margin-bottom: 4%;
+}
+.rewardsThirdSectionBox2Right .rewardsThirdSectionBox2RightDesc{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* rewards section 4 */
+.rewardsFourthSectionLearnMore:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* reward section 5*/
+.rewardsFifthSection{
+    width: 100%;
+    background-color: rgb(242,240,235);
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+.rewardsFifthSectionHeading{
+    margin-bottom: 1%;
+}
+.rewardsFifthSectionPara{
+    text-align: center;
+    line-height: 25px;
+}
+.rewardsFifthSectionBoxes{
+    display: flex;
+    flex-direction: column;
+}
+.rewardsFifthSectionFirstBox1{
+    display: flex;
+    padding-top: 7%;
+    width: 100%;
+}
+.rewardsFifthSectionFirstBox{
+    display: flex;
+    gap: 3%;
+}
+.rewardsFifthSectionFirstBoxHeading{
+    font-size: 22px;
+    margin-bottom: 1%;
+}
+.rewardsFifthSectionFirstBoxPTag{
+    font-size: 17px;
+    letter-spacing: -0.16px;
+    font-weight: 400;
+    font-family: SodoSans;
+}
+
+
+/*rewards section 6*/
+.rewardsSixthSection{
+    background: url("../../assets/images/rewards_section6_bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    padding: 2%;
+  
+}
+.rewardsSixthSectionContainer{
+    background-color: rgb(212, 233, 226);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.rewardsSixthSectionContainerContent{
+    width: 65%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rewardsSixthSectionContainerBgLeft{
+    background: url("../../assets/images/rewards_section6_bgleft.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rewardsSixthSectionContainerContents{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rewardsSixthSectionContainerBgRight {
+    background: url("../../assets/images/rewards_section6_bgrigh.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*rewards seventh section*/
+
+.rewardsSeventhSection{
+    padding-top: 5%;
+    padding-bottom: 7%;
+    padding-left: 19%;
+    padding-right: 36%;
+}
+.questions{
+    margin-bottom: 4%;
+    color: rgba(0,0,0,0.87);
+}
+.quesAns{
+    line-height: 24px;
+    letter-spacing: 0.84px;
+}
+.rightOverHere:hover{
+    text-decoration: none;
+}
+
+/*rewards eighth section*/
+.rewardsEighthSection{
+   padding: 4% 0%;
+   padding-left: 3%;
+   background-color: #f9f9f9;
+}
+.rewardsEighthSectionBoxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.eighthSectionBox1{
+    display: flex;
+}
+.eighthSectionBox2{
+    display: flex;
+}
+.earningStar{
+    width: 47%;
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
+        padding-bottom: 3%;
+    }
+.termsOfUses{
+    width: 47%;
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
+        margin-left: 3%;
+        padding-bottom: 3%;
+}
+.benifits{
+    width: 47%;
+}
+.redeemingRewards{
+    width: 47%;
+    margin-left: 3%;
+}
+.rewardsEighthSectionPara{
+    font-size: 13px;
+        letter-spacing: -0.16px;
+        margin-bottom: 1%;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.67);
+}
+.rewardsEighthSectionHeading{
+        color: rgba(0, 0, 0, 0.57);
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 800;
+}
+
+
+
+
+
+@media screen and (max-width:850px) {
+    .rewardsHeaderSection{
+        padding: 2% 0;
+    }
+    .starBucksReward{
+        margin-left: -22px;
+    }
+  .joinInTheApp {
+        display: block;
+        margin-right: 2%;
+        border-radius: 15px;
+        padding: 8px 10px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-weight: 700;
+    } 
+        .rewardsFirstSectionLeft {
+            width: 100%;
+            height: 37%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4%;
+        }
+        /*
+        .rewardsFirstSection{
+            background-position: bottom;
+            background-size: contain;
+        }
+        */
+                .rewardsFirstSection {
+                    background: url("../../assets/images/rewardsbg_img1.responsivejpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    padding-left: 2%;
+                    background-color: rgb(212, 233, 226);
+                    width: 100%;
+                    height: 68rem;
+                    margin: 0 auto;
+                }
+
+
+       .rewardsSecondSectionBoxes {
+                                        flex-direction: column;
+                                    }
+                                    .rewardsSecondSectionBox img{
+                                        width: 17%;
+                                        margin-right: 2%;
+                                    }
+                
+                                    .rewardsSecondSectionBox {
+                                        flex-direction: row;
+                                        align-items: flex-start;
+                                        width: 100%;
+                                        margin-bottom: 3%;
+                                    }
+                                    .rewardsSecondSectionParagraph{
+                                        margin-bottom: 6%;
+                                    }
+                                    .rewardsSecondSectionContent1 {
+                                        margin-right: 12px;
+                                        padding: 3%;
+                                        font-size: 23px;
+                                    }
+                                    .rewardsSecondSectionContent2 {
+                                        margin-bottom: 3%;
+                                    }
+                
+                                    .rewardsSecondSectionContent3 {
+                                        text-align: start;
+                                        margin-bottom: 3%;
+                                    }
+
+                
+                                    .secondSectionOneContent {
+                                        /* background-color: tan; */
+                                        text-align: start;
+                                    }
+                
+                                    .rewardsSecondSection {
+                                        padding: 2%;
+                                        padding-top: 8%;
+                                        width: 100%;
+                    }                                                  
+
+        .rewardsThirdSectionBox1{
+            padding-top: 6%;
+                align-items: flex-start;
+                padding-left: 2%;
+                padding-right: 2%;
+                width: 100%;
+        }
+        .rewardsThirdSectionBox2{
+            display: flex;
+            flex-direction: column;
+        }
+        .rewardsThirdSectionBox2Left{
+            width: 95%;
+            margin-left: 0;
+        }
+        .rewardsThirdSectionBox2Right{
+            width: 95%;
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .rewardsThirdSectionBox1Heading{
+            margin:  auto;
+        }
+        .rewardsThirdSectionBox1Ratings{
+            width: 45%;
+                margin: auto;
+                margin-top: 6%;
+        }
+        .rewardsFifthSectionFirstBox1{
+            flex-direction: column;
+        }
+        #oneStarPerDollar{
+            margin-bottom: 5%;
+            margin-top: 2%;
+        }
+        #scanAndPay{
+            width: max-content;
+            width: 95%;
+        }
+        .rewardsFifthSectionFirstBox{
+            width: 95%;
+        }
+        .preload{
+            margin-top: 2%;
+            padding-left: 8%;
+        }
+        .preload img{
+            width: 23%;
+        }
+        .registerYourGiftCard{
+            padding-left: 9%;
+            margin-left: 37px;
+        }
+        .registerYourGiftCard img{
+            width: 23%;
+        }
+        .registerYourGiftCardImg {
+            margin-left: 9%;
+        }
+        
+
+
+
+
+        .rewardsSixthSection{
+            background: none;
+            padding: 0;
+        }
+        .rewardsSixthSectionContainerBgRight{
+            background: url("../../assets/images/rewards_section6_bgrightsmallsvg.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            align-self: flex-end;
+
+        }
+        .rewardsSixthSectionContainer{
+            flex-direction: column;
+        }
+        .rewardsSixthSectionContainerContent{
+            width: 100%;
+        }
+        .rewardsSixthSectionContainerBgLeft {
+            background: url("../../assets/images/rewards_section6_bgleft.smallsvg.svg");
+            background-repeat: no-repeat;
+            align-self: flex-start;
+            background-size: contain;
+        }
+      .rewardsSeventhSection{
+        padding-top: 5%;
+        padding-bottom: 7%;
+        padding-left: 3%;
+        padding-right: 3%;
+        
+      }
+
+
+        .rewardsEighthSection{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-right: 3%;
+        }
+        .rewardsEighthSectionHeading{
+            font-size: 18px;
+        }
+                .rewardsEighthSectionPara {
+                    font-size: 17px;
+                }
+        .eighthSectionBox1{
+            display: flex;
+            flex-direction: column;
+        }
+        .eighthSectionBox2 {
+                    display: flex;
+                    flex-direction: column;
+        }
+        .earningStar{
+            width: 100%;
+        }
+        .termsOfUses{
+            width: 100%;
+            margin-left: 0;
+        }
+        .benifits {
+                
+                    width: 100%;
+                    margin-left: 0;
+                    margin-bottom: 3%;
+        }
+        .redeemingRewards {
+                    width: 100%;
+                    margin-left: 0;
+      }
+      .rewardsEighthSectionHeading{
+        margin-bottom: 3%;
+      }
+        
+
+        
+}
+
+@media screen and (max-width:780px){
+  .rewardsThirdSectionBox1Ratings{
+    width: 50%;
+  }
+  .registerYourGiftCard{
+    margin-left: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

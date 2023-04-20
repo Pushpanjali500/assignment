@@ -1,0 +1,33 @@
+.menuNavSection{
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    height: 60px;
+    margin-top: 3px;
+    z-index: 0;
+}
+.menuNavContainer{
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 2%;
+    
+}
+.menuNavContainer .menuNavContent{
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.menuNavContainer .active{
+    border-bottom: 1px solid black;
+}
+
+
+
+@media  screen and (max-width:850px) {
+    .menuNavSection{
+        display: none;
+    }
+    
+}

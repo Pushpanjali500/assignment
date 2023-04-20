@@ -1,0 +1,133 @@
+.menuContainerSection{
+    width: 84%;
+    margin: 0 auto;
+    padding-top: 3%;
+    display: flex;
+}
+.menuLeftBox{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    flex-wrap: wrap;
+}
+.menuLeftBoxHeading{
+    font-size: 19px;
+    margin-bottom: 13%;
+}
+.menuLeftBoxContents{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13%;
+}
+.menuLeftBoxContent{
+    margin-bottom: 13%;
+    color: gray;
+}
+
+
+.menuRightBox{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    margin-left: 5%;
+}
+.menuHeading{
+    margin-bottom: 3.5%;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 29px;
+}
+.menuRightContainer .menuRightHeading{
+    font-weight: 800;
+    margin-bottom: 2%;
+    margin-top: 3%;
+
+}
+.menuRightContainer .menuRightContent{
+    display: flex;
+    margin-top: 3%;
+}
+.menuRightContent .menuRightLeftBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    width: 50%;
+}
+.menuRightContent .menuRightLeftBoxWrapper .menuRightLeftBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7%;
+    gap: 4%;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.menuRightLeftBoxImg{
+    border-radius: 50%;
+    width: 24%;
+}
+.menuRightHr{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.menuRightRightBoxWrapper{
+    display: flex;
+    gap: 3%;
+    flex-direction: column;
+    width: 50%;
+}
+.menuRightRightBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7%;
+    gap: 4%;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.menuRightRightBoxImg {
+    border-radius: 50%;
+    width: 24%;
+}
+
+
+
+@media screen and (max-width:1050px) {
+    .menuLeftBox{
+        display: none;
+    }
+    .menuRightContainer{
+        width: 85vw;
+    }
+    .menuRightRightBox{
+        margin-bottom: 4%;
+    }
+    .menuRightLeftBox{
+        margin-bottom: 4%;
+    }
+    .menuRightLeftBox p{
+        font-size: 18px;
+    }
+        .menuRightRightBox p {
+            font-size: 18px;
+        }
+
+    .menuRightLeftBoxImg{
+        width: 22%;
+    }
+        .menuRightRightBoxImg {
+            width: 22%;
+        }
+}
+
+@media  screen and (max-width:850px) {
+    .menuRightContent {
+            flex-direction: column;
+        }
+        .menuContainerSection{
+            margin: 0 0;
+        }
+        .Frappuccino{
+            width: max-content;
+        }
+}
